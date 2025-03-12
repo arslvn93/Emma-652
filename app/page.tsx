@@ -12,8 +12,8 @@ export default function Home() {
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-sm font-light tracking-widest uppercase">
             <Link href="/" className="text-white">
-              <h1 className="text-xl md:text-2xl font-normal tracking-wide font-serif">Emma Pace</h1>
-              <p className="text-xs tracking-[0.3em]">BROKER OF LUXURY HOMES</p>
+              <h1 className="text-xl md:text-2xl font-normal tracking-wide font-serif">Emma</h1>
+              <p className="text-xs tracking-[0.3em]">LUXURY HOME SELLER SPECIALIST - TORONTO</p>
             </Link>
           </div>
           <nav className="hidden md:flex space-x-8 text-xs uppercase tracking-wider">
@@ -25,9 +25,6 @@ export default function Home() {
             </Link>
             <Link href="#" className="hover:text-gray-300">
               Market Insights
-            </Link>
-            <Link href="#" className="hover:text-gray-300">
-              Buyer's Guide
             </Link>
             <Link href="#" className="hover:text-gray-300">
               Seller's Guide
@@ -46,8 +43,8 @@ export default function Home() {
       <section className="relative h-[80vh] flex items-center">
         <div className="absolute inset-0 bg-black/60 z-10">
           <Image
-            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop"
-            alt="Emma Pace, Award-Winning Luxury Homes Broker in The Beaches, Toronto"
+            src="/placeholder.svg?height=1080&width=1920"
+            alt="Emma, Luxury Home Seller Specialist"
             fill
             priority
             className="object-cover mix-blend-overlay"
@@ -56,13 +53,12 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-20">
           <div className="max-w-3xl mx-auto text-center text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-light tracking-wide leading-tight">
-              YOUR LUXURY HOME
+              YOUR TRUSTED PARTNER
               <br />
-              JOURNEY STARTS HERE
+              IN LUXURY HOME SELLING
             </h1>
             <p className="mt-6 text-sm md:text-base font-light tracking-wider max-w-md mx-auto">
-              With 15 years of excellence and a dedicated team of 5 agents, Emma brings award-winning expertise to
-              Toronto's Beaches luxury market.
+              Expert guidance and results-driven strategies for luxury home sellers in Toronto.
             </p>
             <div className="mt-12 space-y-4">
               <Button className="bg-white text-black hover:bg-white/90 rounded-none px-8 py-6 text-xs tracking-widest uppercase">
@@ -89,7 +85,7 @@ export default function Home() {
             <div className="hidden md:block h-6 w-px bg-black/70"></div>
             <span className="text-center font-light text-sm md:text-base">PROPERTY VALUATION</span>
             <div className="hidden md:block h-6 w-px bg-black/70"></div>
-            <span className="text-center font-light text-sm md:text-base">INVESTMENT STRATEGY</span>
+            <span className="text-center font-light text-sm md:text-base">STRATEGIC MARKETING</span>
           </div>
         </div>
       </section>
@@ -100,23 +96,26 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-black">
               <Image
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=988&auto=format&fit=crop"
-                alt="Emma Pace, Award-Winning Luxury Homes Broker"
+                src="/placeholder.svg?height=800&width=600"
+                alt="Emma, Luxury Home Seller Specialist"
                 width={600}
                 height={800}
                 className="w-full h-full object-cover mix-blend-normal"
               />
             </div>
             <div className="flex flex-col justify-center">
-              <p className="uppercase tracking-widest text-sm mb-4">MEET EMMA PACE</p>
-              <h2 className="text-3xl md:text-4xl font-serif mb-6">Your Trusted Broker in Luxury Homes</h2>
+              <p className="uppercase tracking-widest text-sm mb-4">MEET EMMA</p>
+              <h2 className="text-3xl md:text-4xl font-serif mb-6">
+                Your Trusted Partner in Selling Luxury Homes in Toronto
+              </h2>
               <p className="text-sm leading-relaxed mb-4">
-                With 15 years of experience specializing in luxury homes in The Beaches area of Toronto, Emma has earned a
-                reputation for unparalleled expertise and personalized service.
+                With over 15 years of experience in Toronto's luxury home market, I've built a reputation for
+                delivering exceptional results to luxury home sellers.
               </p>
               <p className="text-sm leading-relaxed mb-8">
-                Supported by a talented team of 5 agents and a legacy of winning numerous awards, Emma is dedicated to
-                guiding discerning clients through every step of the luxury real estate journey.
+                My approach combines comprehensive market insight, strategic negotiation, and a commitment to showcasing
+                each property's unique appeal. Whether you're preparing to sell or seeking advice on maximizing your
+                home's value, I'm here to ensure your success in the competitive Toronto real estate landscape.
               </p>
               <Button variant="outline" className="rounded-none text-xs tracking-widest uppercase px-6 self-start">
                 LEARN MORE ABOUT EMMA
@@ -135,15 +134,15 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-serif mb-6">
                 Understanding Today's
                 <br />
-                <span className="italic">Toronto Luxury Home Market</span>
+                <span className="italic">Luxury Home Selling Market</span>
               </h2>
               <p className="text-sm leading-relaxed mb-4">
-                The luxury home market in Toronto is dynamic, influenced by economic trends, lifestyle shifts, and evolving
-                urban landscapes. Stay informed with our in-depth market analysis and exclusive insights.
+                Toronto's luxury home selling market is dynamic and influenced by economic trends and evolving buyer
+                expectations. Stay ahead with our latest market analysis and insights.
               </p>
               <p className="text-sm leading-relaxed mb-8">
-                From The Beaches to the city's vibrant neighborhoods, our comprehensive market report provides the information
-                you need to make confident real estate decisions.
+                From neighborhood trends to innovative marketing tactics, our comprehensive market report provides all
+                the tools you need to make informed decisions when selling your luxury home.
               </p>
               <Button variant="outline" className="rounded-none text-xs tracking-widest uppercase px-6 self-start">
                 DOWNLOAD MARKET REPORT
@@ -151,8 +150,8 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1973&auto=format&fit=crop"
-                alt="Toronto luxury home market graph"
+                src="/placeholder.svg?height=800&width=600"
+                alt="Luxury home market graph"
                 width={600}
                 height={800}
                 className="w-full h-full object-cover"
@@ -162,37 +161,38 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Buyer's Guide Section */}
+      {/* Seller's Guide Section */}
       <section className="py-16 bg-[#f5f3ef]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-serif text-center mb-12">Luxury Home Buyer's Guide</h2>
+            <h2 className="text-3xl md:text-4xl font-serif text-center mb-12">Luxury Home Seller's Guide</h2>
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div className="flex flex-col items-center">
-                <h3 className="text-xl font-serif mb-4">Define Your Vision</h3>
+                <h3 className="text-xl font-serif mb-4">Enhance Your Home’s Appeal</h3>
                 <p className="text-sm leading-relaxed mb-4">
-                  Clarify your must-haves, desired locations, and lifestyle needs to focus your luxury home search effectively.
+                  Invest in professional staging and curb appeal improvements to make a lasting impression on buyers.
                 </p>
                 <div className="w-20 h-px bg-black/70 my-4"></div>
               </div>
               <div className="flex flex-col items-center">
-                <h3 className="text-xl font-serif mb-4">Financial Preparation</h3>
+                <h3 className="text-xl font-serif mb-4">Strategic Pricing</h3>
                 <p className="text-sm leading-relaxed mb-4">
-                  Understand financing options, tax implications, and investment potential in the luxury market.
+                  Leverage market analysis and expert pricing strategies to maximize your return.
                 </p>
                 <div className="w-20 h-px bg-black/70 my-4"></div>
               </div>
               <div className="flex flex-col items-center">
-                <h3 className="text-xl font-serif mb-4">Due Diligence</h3>
+                <h3 className="text-xl font-serif mb-4">Marketing Mastery</h3>
                 <p className="text-sm leading-relaxed mb-4">
-                  Learn about property inspections, title searches, and other critical steps in the luxury buying process.
+                  Utilize high-end marketing tactics and exclusive networks to showcase your property to the right
+                  audience.
                 </p>
                 <div className="w-20 h-px bg-black/70 my-4"></div>
               </div>
             </div>
             <div className="text-center mt-8">
               <Button variant="outline" className="rounded-none text-xs tracking-widest uppercase px-6">
-                GET FULL BUYER'S GUIDE
+                GET FULL SELLER'S GUIDE
               </Button>
             </div>
           </div>
@@ -205,13 +205,14 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-xs uppercase tracking-widest text-gray-600 mb-6">CLIENT TESTIMONIALS</p>
             <blockquote className="text-xl md:text-2xl font-serif italic mb-6">
-              "Emma's insight and professionalism transformed our luxury home buying experience."
+              "Emma's expertise and dedication made our home selling experience truly exceptional."
             </blockquote>
             <p className="text-sm text-gray-600 mb-6">
-              Working with Emma was a game changer. Her expertise in The Beaches market, attention to detail, and award-winning
-              approach ensured we found our dream home with confidence. We couldn't be more satisfied.
+              Working with Emma was an absolute pleasure. Her in-depth knowledge of the luxury market, attention to
+              detail, and unwavering commitment to our needs made the entire process smooth and successful. We couldn't
+              be happier with the results she delivered.
             </p>
-            <p className="text-sm font-medium italic">— The Martins, Toronto</p>
+            <p className="text-sm font-medium italic">— The Andersons, Toronto</p>
           </div>
         </div>
       </section>
@@ -222,20 +223,22 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?q=80&w=1973&auto=format&fit=crop"
-                alt="Emma Pace consulting with clients"
+                src="/placeholder.svg?height=800&width=600"
+                alt="Emma consulting with clients"
                 width={600}
                 height={800}
                 className="w-full h-auto"
               />
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl font-serif mb-6">Let's Discuss Your Real Estate Goals</h2>
+              <h2 className="text-2xl md:text-3xl font-serif mb-6">Let's Discuss Your Home Selling Goals</h2>
               <p className="text-lg md:text-xl font-serif mb-6">
-                Whether you're looking to <span className="italic">buy, sell, or invest</span> in luxury homes, Emma is here to offer expert, personalized guidance.
+                If you're considering selling your luxury home in Toronto, I'm here to offer expert guidance tailored to
+                your needs.
               </p>
               <p className="text-sm text-gray-600 mb-8">
-                Schedule a consultation today and take the first step towards achieving your real estate aspirations with a trusted, award-winning broker.
+                Schedule a consultation today and explore how we can work together to achieve a successful sale, leveraging
+                personalized advice and exclusive market insights.
               </p>
               <div className="space-y-4">
                 <Input type="text" placeholder="Your Name" className="rounded-none focus:ring-black" />
@@ -256,11 +259,11 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-12">
             <div>
               <div className="bg-white text-black p-6 mb-8">
-                <h3 className="text-xl font-serif mb-1">Emma Pace</h3>
-                <p className="text-xs uppercase tracking-widest">BROKER OF LUXURY HOMES</p>
+                <h3 className="text-xl font-serif mb-1">Emma</h3>
+                <p className="text-xs uppercase tracking-widest">LUXURY HOME SELLER - TORONTO</p>
               </div>
               <p className="text-sm text-gray-300 mb-4">
-                Delivering expert guidance and award-winning service in the luxury real estate market of The Beaches, Toronto.
+                Delivering expert guidance and personalized service for luxury home sellers in Toronto.
               </p>
             </div>
             <div>
@@ -276,9 +279,6 @@ export default function Home() {
                   Market Insights
                 </Link>
                 <Link href="#" className="text-gray-300 hover:text-white">
-                  Buyer's Guide
-                </Link>
-                <Link href="#" className="text-gray-300 hover:text-white">
                   Seller's Guide
                 </Link>
                 <Link href="#" className="text-gray-300 hover:text-white">
@@ -289,7 +289,7 @@ export default function Home() {
             <div>
               <h3 className="text-sm uppercase tracking-widest mb-6">Stay Informed</h3>
               <p className="text-sm text-gray-300 mb-4">
-                Subscribe to our newsletter for exclusive market insights and luxury real estate tips.
+                Subscribe to our newsletter for exclusive market insights and luxury home selling tips.
               </p>
               <div className="flex mb-4">
                 <Input
@@ -313,7 +313,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center mt-12 text-xs text-gray-400">
-            © EMMA PACE LUXURY HOMES 2025. ALL RIGHTS RESERVED.
+            © EMMA LUXURY HOME SELLER - TORONTO 2025. ALL RIGHTS RESERVED.
           </div>
         </div>
       </footer>
